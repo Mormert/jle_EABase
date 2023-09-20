@@ -614,6 +614,8 @@
 		#define EA_PLATFORM_WINRT 1 
 	#endif
 
+#elif __EMSCRIPTEN__
+
 // Sun (Solaris)
 // __SUNPRO_CC is defined by the Sun compiler.
 // __sun is defined by the GCC compiler.
